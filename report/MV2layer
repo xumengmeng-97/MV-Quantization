@@ -1,0 +1,577 @@
+================= Search all BN layers and remove. ============
+=========== Search all convolution layers and replace. ========
+=========== Perform layer-wise statistics. ====================
+==> Start quantizing layer: root.features.0.0 
+Naive error in : 0.0000432569
+Time: 6.71 s
+==> Start quantizing layer: root.features.1.conv.0.0 
+Naive error in : 0.0046467562
+Time: 9.88 s
+==> Start quantizing layer: root.features.1.conv.0 
+Naive error in : 0.0004936252
+Time: 5.86 s
+==> Start quantizing layer: root.features.2.conv.0.0 
+Naive error in : 0.0000995019
+Time: 38.10 s
+==> Start quantizing layer: root.features.2.conv.1.0 
+Naive error in : 0.0013848019
+Time: 42.33 s
+==> Start quantizing layer: root.features.2.conv.0 
+Naive error in : 0.0005503054
+Time: 5.93 s
+==> Start quantizing layer: root.features.3.conv.0.0 
+Naive error in : 0.0000240857
+Time: 22.17 s
+==> Start quantizing layer: root.features.3.conv.1.0 
+Naive error in : 0.0004210945
+Time: 37.12 s
+==> Start quantizing layer: root.features.3.conv.0 
+Naive error in : 0.0007396502
+Time: 7.64 s
+==> Start quantizing layer: root.features.3.0 
+Naive error in : 0.0005593050
+Time: 4.84 s
+==> Start quantizing layer: root.features.4.conv.0.0 
+Naive error in : 0.0000565343
+Time: 22.67 s
+==> Start quantizing layer: root.features.4.conv.1.0 
+Naive error in : 0.0003575429
+Time: 25.06 s
+==> Start quantizing layer: root.features.4.conv.0 
+Naive error in : 0.0004009529
+Time: 4.89 s
+==> Start quantizing layer: root.features.5.conv.0.0 
+Naive error in : 0.0000080006
+Time: 11.82 s
+==> Start quantizing layer: root.features.5.conv.1.0 
+Naive error in : 0.0003054443
+Time: 18.32 s
+==> Start quantizing layer: root.features.5.conv.0 
+Naive error in : 0.0002069044
+Time: 5.73 s
+==> Start quantizing layer: root.features.5.0 
+Naive error in : 0.0002200163
+Time: 4.46 s
+==> Start quantizing layer: root.features.6.conv.0.0 
+Naive error in : 0.0000104554
+Time: 12.26 s
+==> Start quantizing layer: root.features.6.conv.1.0 
+Naive error in : 0.0001465797
+Time: 18.93 s
+==> Start quantizing layer: root.features.6.conv.0 
+Naive error in : 0.0002500351
+Time: 5.96 s
+==> Start quantizing layer: root.features.6.0 
+Naive error in : 0.0003681176
+Time: 4.91 s
+==> Start quantizing layer: root.features.7.conv.0.0 
+Naive error in : 0.0000192186
+Time: 12.54 s
+==> Start quantizing layer: root.features.7.conv.1.0 
+Naive error in : 0.0000634012
+Time: 13.53 s
+==> Start quantizing layer: root.features.7.conv.0 
+Naive error in : 0.0004084361
+Time: 5.41 s
+==> Start quantizing layer: root.features.8.conv.0.0 
+Naive error in : 0.0000049860
+Time: 12.64 s
+==> Start quantizing layer: root.features.8.conv.1.0 
+Naive error in : 0.0000737002
+Time: 19.15 s
+==> Start quantizing layer: root.features.8.conv.0 
+Naive error in : 0.0000845077
+Time: 6.71 s
+==> Start quantizing layer: root.features.8.0 
+Naive error in : 0.0001280653
+Time: 5.82 s
+==> Start quantizing layer: root.features.9.conv.0.0 
+Naive error in : 0.0000042280
+Time: 13.24 s
+==> Start quantizing layer: root.features.9.conv.1.0 
+Naive error in : 0.0001292188
+Time: 19.73 s
+==> Start quantizing layer: root.features.9.conv.0 
+Naive error in : 0.0000612113
+Time: 7.64 s
+==> Start quantizing layer: root.features.9.0 
+Naive error in : 0.0001225446
+Time: 6.64 s
+==> Start quantizing layer: root.features.10.conv.0.0 
+Naive error in : 0.0000042516
+Time: 13.99 s
+==> Start quantizing layer: root.features.10.conv.1.0 
+Naive error in : 0.0000511272
+Time: 20.75 s
+==> Start quantizing layer: root.features.10.conv.0 
+Naive error in : 0.0003657562
+Time: 8.35 s
+==> Start quantizing layer: root.features.10.0 
+Naive error in : 0.0002107445
+Time: 7.20 s
+==> Start quantizing layer: root.features.11.conv.0.0 
+Naive error in : 0.0000075646
+Time: 14.69 s
+==> Start quantizing layer: root.features.11.conv.1.0 
+Naive error in : 0.0000925056
+Time: 21.37 s
+==> Start quantizing layer: root.features.11.conv.0 
+Naive error in : 0.0001581491
+Time: 9.85 s
+==> Start quantizing layer: root.features.12.conv.0.0 
+Naive error in : 0.0000067913
+Time: 25.75 s
+==> Start quantizing layer: root.features.12.conv.1.0 
+Naive error in : 0.0000901569
+Time: 39.98 s
+==> Start quantizing layer: root.features.12.conv.0 
+Naive error in : 0.0004494461
+Time: 11.99 s
+==> Start quantizing layer: root.features.12.0 
+Naive error in : 0.0001362480
+Time: 9.79 s
+==> Start quantizing layer: root.features.13.conv.0.0 
+Naive error in : 0.0000113223
+Time: 27.11 s
+==> Start quantizing layer: root.features.13.conv.1.0 
+Naive error in : 0.0003457012
+Time: 41.44 s
+==> Start quantizing layer: root.features.13.conv.0 
+Naive error in : 0.0007579003
+Time: 13.02 s
+==> Start quantizing layer: root.features.13.0 
+Naive error in : 0.0005071143
+Time: 10.80 s
+==> Start quantizing layer: root.features.14.conv.0.0 
+Naive error in : 0.0000388130
+Time: 28.14 s
+==> Start quantizing layer: root.features.14.conv.1.0 
+Naive error in : 0.0000393455
+Time: 30.05 s
+==> Start quantizing layer: root.features.14.conv.0 
+Naive error in : 0.0003635834
+Time: 12.13 s
+==> Start quantizing layer: root.features.15.conv.0.0 
+Naive error in : 0.0001231354
+Time: 22.81 s
+==> Start quantizing layer: root.features.15.conv.1.0 
+Naive error in : 0.0004207200
+Time: 32.70 s
+==> Start quantizing layer: root.features.15.conv.0 
+Naive error in : 0.0002798467
+Time: 14.66 s
+==> Start quantizing layer: root.features.15.0 
+Naive error in : 0.0009424061
+Time: 13.25 s
+==> Start quantizing layer: root.features.16.conv.0.0 
+Naive error in : 0.0001781568
+Time: 24.17 s
+==> Start quantizing layer: root.features.16.conv.1.0 
+Naive error in : 0.0003058452
+Time: 34.77 s
+==> Start quantizing layer: root.features.16.conv.0 
+Naive error in : 0.0007509057
+Time: 16.17 s
+==> Start quantizing layer: root.features.16.0 
+Naive error in : 0.0030896654
+Time: 14.35 s
+==> Start quantizing layer: root.features.17.conv.0.0 
+Naive error in : 0.0002535972
+Time: 25.68 s
+==> Start quantizing layer: root.features.17.conv.1.0 
+Naive error in : 0.0001046648
+Time: 38.77 s
+==> Start quantizing layer: root.features.17.conv.0 
+Naive error in : 0.0009560919
+Time: 21.55 s
+==> Start quantizing layer: root.features.18.0 
+Naive error in : 0.0014420018
+Time: 40.22 s
+==> Start quantizing layer: root.classifier.1.0 
+Naive error in : 0.0010511971
+Time: 16.58 s
+Total Time: 1100.70
+
+
+================= Search all BN layers and remove. ============
+=========== Search all convolution layers and replace. ========
+=========== Perform layer-wise statistics. ====================
+==> Start quantizing layer: root.features.0.0 
+Initial MSE error: 0.0000432569
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 48.11  S2: 352.94
+Time: 2.43 s
+==> Start quantizing layer: root.features.1.conv.0.0 
+Initial MSE error: 0.0046467562
+Searching ...
+Searched optimal MSE error: 0.0046
+S1: 26.79  S2: 8.49
+Time: 3.56 s
+==> Start quantizing layer: root.features.1.conv.0 
+Initial MSE error: 0.0004936252
+Searching ...
+Searched optimal MSE error: 0.0005
+S1: 21.17  S2: 123.62
+Time: 3.24 s
+==> Start quantizing layer: root.features.2.conv.0.0 
+Initial MSE error: 0.0000995019
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 27.49  S2: 247.61
+Time: 4.81 s
+==> Start quantizing layer: root.features.2.conv.1.0 
+Initial MSE error: 0.0013806882
+Searching ...
+Searched optimal MSE error: 0.0014
+S1: 21.17  S2: 20.13
+Time: 6.31 s
+==> Start quantizing layer: root.features.2.conv.0 
+Initial MSE error: 0.0005508409
+Searching ...
+Searched optimal MSE error: 0.0006
+S1: 21.17  S2: 168.18
+Time: 3.02 s
+==> Start quantizing layer: root.features.3.conv.0.0 
+Initial MSE error: 0.0000237496
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 23.18  S2: 382.69
+Time: 2.59 s
+==> Start quantizing layer: root.features.3.conv.1.0 
+Initial MSE error: 0.0004304621
+Searching ...
+Searched optimal MSE error: 0.0004
+S1: 41.80  S2: 26.64
+Time: 3.94 s
+==> Start quantizing layer: root.features.3.conv.0 
+Initial MSE error: 0.0007572244
+Searching ...
+Searched optimal MSE error: 0.0008
+S1: 23.94  S2: 104.80
+Time: 3.35 s
+==> Start quantizing layer: root.features.3.0 
+Initial MSE error: 0.0005383191
+Searching ...
+Searched optimal MSE error: 0.0002
+S1: 33.82  S2: 27.94
+Time: 2.21 s
+==> Start quantizing layer: root.features.4.conv.0.0 
+Initial MSE error: 0.0000342694
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 16.29  S2: 403.20
+Time: 2.71 s
+==> Start quantizing layer: root.features.4.conv.1.0 
+Initial MSE error: 0.0003341371
+Searching ...
+Searched optimal MSE error: 0.0002
+S1: 89.41  S2: 26.31
+Time: 3.35 s
+==> Start quantizing layer: root.features.4.conv.0 
+Initial MSE error: 0.0003663205
+Searching ...
+Searched optimal MSE error: 0.0002
+S1: 62.66  S2: 171.91
+Time: 2.09 s
+==> Start quantizing layer: root.features.5.conv.0.0 
+Initial MSE error: 0.0000066560
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 29.69  S2: 660.67
+Time: 1.88 s
+==> Start quantizing layer: root.features.5.conv.1.0 
+Initial MSE error: 0.0002190398
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 126.90  S2: 22.72
+Time: 2.23 s
+==> Start quantizing layer: root.features.5.conv.0 
+Initial MSE error: 0.0001135112
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 51.01  S2: 154.61
+Time: 2.02 s
+==> Start quantizing layer: root.features.5.0 
+Initial MSE error: 0.0001846107
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 44.54  S2: 48.28
+Time: 1.62 s
+==> Start quantizing layer: root.features.6.conv.0.0 
+Initial MSE error: 0.0000066874
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 35.81  S2: 965.55
+Time: 1.76 s
+==> Start quantizing layer: root.features.6.conv.1.0 
+Initial MSE error: 0.0000946560
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 85.38  S2: 25.38
+Time: 2.25 s
+==> Start quantizing layer: root.features.6.conv.0 
+Initial MSE error: 0.0001616783
+Searching ...
+Searched optimal MSE error: 0.0002
+S1: 46.74  S2: 135.45
+Time: 2.06 s
+==> Start quantizing layer: root.features.6.0 
+Initial MSE error: 0.0002194859
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 35.81  S2: 53.21
+Time: 1.68 s
+==> Start quantizing layer: root.features.7.conv.0.0 
+Initial MSE error: 0.0000152283
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 32.11  S2: 685.86
+Time: 1.79 s
+==> Start quantizing layer: root.features.7.conv.1.0 
+Initial MSE error: 0.0000489819
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 111.95  S2: 61.37
+Time: 2.00 s
+==> Start quantizing layer: root.features.7.conv.0 
+Initial MSE error: 0.0002573184
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 66.35  S2: 215.87
+Time: 1.62 s
+==> Start quantizing layer: root.features.8.conv.0.0 
+Initial MSE error: 0.0000037770
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 58.57  S2: 1051.57
+Time: 1.60 s
+==> Start quantizing layer: root.features.8.conv.1.0 
+Initial MSE error: 0.0000713210
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 102.97  S2: 22.97
+Time: 1.83 s
+==> Start quantizing layer: root.features.8.conv.0 
+Initial MSE error: 0.0000781230
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 136.46  S2: 214.05
+Time: 1.77 s
+==> Start quantizing layer: root.features.8.0 
+Initial MSE error: 0.0000897165
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 58.57  S2: 60.55
+Time: 1.54 s
+==> Start quantizing layer: root.features.9.conv.0.0 
+Initial MSE error: 0.0000033773
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 51.41  S2: 1383.62
+Time: 1.61 s
+==> Start quantizing layer: root.features.9.conv.1.0 
+Initial MSE error: 0.0001111110
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 115.66  S2: 11.24
+Time: 1.86 s
+==> Start quantizing layer: root.features.9.conv.0 
+Initial MSE error: 0.0000580291
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 72.82  S2: 182.26
+Time: 1.83 s
+==> Start quantizing layer: root.features.9.0 
+Initial MSE error: 0.0000920714
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 51.41  S2: 100.05
+Time: 1.55 s
+==> Start quantizing layer: root.features.10.conv.0.0 
+Initial MSE error: 0.0000033045
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 52.90  S2: 1416.82
+Time: 1.63 s
+==> Start quantizing layer: root.features.10.conv.1.0 
+Initial MSE error: 0.0000360995
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 194.68  S2: 29.62
+Time: 1.96 s
+==> Start quantizing layer: root.features.10.conv.0 
+Initial MSE error: 0.0002027818
+Searching ...
+Searched optimal MSE error: 0.0002
+S1: 33.91  S2: 159.03
+Time: 1.80 s
+==> Start quantizing layer: root.features.10.0 
+Initial MSE error: 0.0001395667
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 52.90  S2: 61.76
+Time: 1.57 s
+==> Start quantizing layer: root.features.11.conv.0.0 
+Initial MSE error: 0.0000060624
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 47.92  S2: 1065.32
+Time: 1.61 s
+==> Start quantizing layer: root.features.11.conv.1.0 
+Initial MSE error: 0.0000761190
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 89.13  S2: 19.64
+Time: 1.85 s
+==> Start quantizing layer: root.features.11.conv.0 
+Initial MSE error: 0.0001386499
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 83.77  S2: 240.83
+Time: 1.81 s
+==> Start quantizing layer: root.features.12.conv.0.0 
+Initial MSE error: 0.0000060143
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 65.98  S2: 900.99
+Time: 1.77 s
+==> Start quantizing layer: root.features.12.conv.1.0 
+Initial MSE error: 0.0000821923
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 177.40  S2: 27.74
+Time: 2.11 s
+==> Start quantizing layer: root.features.12.conv.0 
+Initial MSE error: 0.0002245833
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 114.45  S2: 299.45
+Time: 1.97 s
+==> Start quantizing layer: root.features.12.0 
+Initial MSE error: 0.0000743380
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 65.98  S2: 102.27
+Time: 1.69 s
+==> Start quantizing layer: root.features.13.conv.0.0 
+Initial MSE error: 0.0000081248
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 60.16  S2: 769.71
+Time: 1.73 s
+==> Start quantizing layer: root.features.13.conv.1.0 
+Initial MSE error: 0.0001184332
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 170.46  S2: 29.13
+Time: 2.07 s
+==> Start quantizing layer: root.features.13.conv.0 
+Initial MSE error: 0.0004522507
+Searching ...
+Searched optimal MSE error: 0.0002
+S1: 111.54  S2: 150.86
+Time: 1.95 s
+==> Start quantizing layer: root.features.13.0 
+Initial MSE error: 0.0000941803
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 60.16  S2: 63.10
+Time: 1.68 s
+==> Start quantizing layer: root.features.14.conv.0.0 
+Initial MSE error: 0.0000098991
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 50.25  S2: 828.43
+Time: 1.82 s
+==> Start quantizing layer: root.features.14.conv.1.0 
+Initial MSE error: 0.0000106067
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 74.30  S2: 55.00
+Time: 2.01 s
+==> Start quantizing layer: root.features.14.conv.0 
+Initial MSE error: 0.0001354538
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 34.91  S2: 398.73
+Time: 1.62 s
+==> Start quantizing layer: root.features.15.conv.0.0 
+Initial MSE error: 0.0000077186
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 97.65  S2: 478.40
+Time: 1.60 s
+==> Start quantizing layer: root.features.15.conv.1.0 
+Initial MSE error: 0.0000961250
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 174.03  S2: 20.84
+Time: 1.77 s
+==> Start quantizing layer: root.features.15.conv.0 
+Initial MSE error: 0.0001525676
+Searching ...
+Searched optimal MSE error: 0.0002
+S1: 29.05  S2: 391.49
+Time: 1.67 s
+==> Start quantizing layer: root.features.15.0 
+Initial MSE error: 0.0000331010
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 97.65  S2: 109.45
+Time: 1.53 s
+==> Start quantizing layer: root.features.16.conv.0.0 
+Initial MSE error: 0.0000055244
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 99.43  S2: 697.89
+Time: 1.55 s
+==> Start quantizing layer: root.features.16.conv.1.0 
+Initial MSE error: 0.0001161042
+Searching ...
+Searched optimal MSE error: 0.0001
+S1: 168.07  S2: 23.69
+Time: 1.75 s
+==> Start quantizing layer: root.features.16.conv.0 
+Initial MSE error: 0.0001893642
+Searching ...
+Searched optimal MSE error: 0.0002
+S1: 45.42  S2: 209.88
+Time: 1.75 s
+==> Start quantizing layer: root.features.16.0 
+Initial MSE error: 0.0000541665
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 99.43  S2: 74.64
+Time: 1.59 s
+==> Start quantizing layer: root.features.17.conv.0.0 
+Initial MSE error: 0.0000032517
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 54.61  S2: 1274.59
+Time: 1.62 s
+==> Start quantizing layer: root.features.17.conv.1.0 
+Initial MSE error: 0.0000189823
+Searching ...
+Searched optimal MSE error: 0.0000
+S1: 104.95  S2: 14.20
+Time: 1.74 s
+==> Start quantizing layer: root.features.17.conv.0 
+Initial MSE error: 0.0011805278
+Searching ...
+Searched optimal MSE error: 0.0002
+S1: 126.83  S2: 233.31
+Time: 1.70 s
+==> Start quantizing layer: root.features.18.0 
+Initial MSE error: 0.0011638597
+Searching ...
+Searched optimal MSE error: 0.0007
+S1: 77.20  S2: 85.72
+Time: 1.70 s
+==> Start quantizing layer: root.classifier.1.0 
+Initial MSE error: 0.0009717438
+Searching ...
+Searched optimal MSE error: 0.0007
+S1: 33.30  S2: 575.82
+Time: 1.50 s
+Total Time: 132.20
